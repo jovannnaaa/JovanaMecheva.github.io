@@ -1,0 +1,151 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: rebeccapurple;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: deepskyblue;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav {
+    background: plum;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+    background: #e2e2e2;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    margin: 60px;
+}
+
+.column {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 45%;
+    box-sizing: border-box;
+    margin-bottom: -30px;
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+@media (max-width: 768px) {
+    .column {
+        max-width: 100%;
+    }
+}
+
+h2 {
+    border-bottom: 2px solid lightskyblue;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    color: deepskyblue;
+}
+
+h3 {
+    color: steelblue;
+    text-transform: uppercase;
+    border: 2px solid pink;
+    margin: 5px;
+    text-align-last: center;
+    font-weight: 900;
+}
+
+ul.contact-info {
+    list-style: none;
+    padding: 40px;
+}
+
+ul.contact-info li {
+    margin: 10px 0;
+}
+
+.read-more {
+    background-color: deepskyblue;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.read-more:hover {
+    background-color: deepskyblue;
+}
+
+.quote {
+    font-style: italic;
+    margin: 20px 0;
+    padding: 20px;
+    background: #e6e6e6;
+    border-left: 5px solid deepskyblue;
+}
+
+.section {
+    margin: 20px 0;
+}
+
+.section-bg {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.colorful-bg {
+    background: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+    padding: 20px;
+    color: white;
+    border-radius: 5px;
+}
+body p{
+    font-style: italic;
+}
+.container .column p{
+    color: orange;
+}
